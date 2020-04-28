@@ -20,13 +20,21 @@ npm包安装，用import引入，用parcel/webpack构建
 ## link
 - [tfjs Doc](https://js.tensorflow.org/api/latest)
 - [google tfjs playground](http://playground.tensorflow.org)
+- [image kernels网站了解图像卷积核](setosa.io/ev/image-kernels)
 
 ## list
-- tensor 张量介绍
-- linear-regression 线性回归
+- brand 商标识别
+- brand-predict
 - height-weight 身高体重预测-归一化
-- logistic-regression 逻辑回归
-- xor 异或分类问题（多层神经网络，非线性问题）
 - iris 鸢尾花分类问题
-- overfit 欠拟合&过拟合演示
+- linear-regression 线性回归
+- logistic-regression 逻辑回归
 - mnist 手写数字识别
+- mobilenet 图片识别预训练模型
+- overfit 欠拟合&过拟合演示
+- setup
+- slider
+- speech
+- speech-cn
+- tensor 张量介绍
+- xor 异或分类问题（多层神经网络，非线性问题）

@@ -13,6 +13,7 @@ window.onload = async () => {
         outputs: layer.output
     });
 
+    //加载我们保存在本地的模型
     const model = await tf.loadLayersModel(MODEL_PATH + '/brand/web_model/model.json');
 
     window.predict = async (file) => {
