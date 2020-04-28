@@ -21,10 +21,11 @@ npm包安装，用import引入，用parcel/webpack构建
 - [tfjs Doc](https://js.tensorflow.org/api/latest)
 - [google tfjs playground](http://playground.tensorflow.org)
 - [image kernels网站了解图像卷积核](setosa.io/ev/image-kernels)
+- [tfjs 官方预训练模型库](https://github.com/tensorflow/tfjs-models)
 
 ## list
 - brand 商标识别
-- brand-predict
+- brand-predict 商标识别保存&加载
 - height-weight 身高体重预测-归一化
 - iris 鸢尾花分类问题
 - linear-regression 线性回归
@@ -34,7 +35,7 @@ npm包安装，用import引入，用parcel/webpack构建
 - overfit 欠拟合&过拟合演示
 - setup
 - slider
-- speech
+- speech 语音识别
 - speech-cn
 - tensor 张量介绍
 - xor 异或分类问题（多层神经网络，非线性问题）
