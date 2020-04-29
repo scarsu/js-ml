@@ -34,8 +34,8 @@ npm包安装，用import引入，用parcel/webpack构建
 - mobilenet 图片识别预训练模型
 - overfit 欠拟合&过拟合演示
 - setup
-- slider
+- slider 声控轮播图 基于语音识别的迁移模型
 - speech 语音识别
-- speech-cn
+- speech-cn 基于语音识别的迁移模型
 - tensor 张量介绍
 - xor 异或分类问题（多层神经网络，非线性问题）

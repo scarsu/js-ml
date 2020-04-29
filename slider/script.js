@@ -13,9 +13,14 @@ window.onload = async () => {
     );
     await recognizer.ensureModelLoaded();
     transferRecognizer = recognizer.createTransfer('轮播图');
+    
+    //用fetch方法从本静态服务器拿到样例数据
     const res = await fetch(MODEL_PATH + '/slider/data.bin');
+    //转为arrayBuffer格式
     const arrayBuffer = await res.arrayBuffer();
+    //模型加载样例数据
     transferRecognizer.loadExamples(arrayBuffer);
+    //模型训练
     await transferRecognizer.train({ epochs: 30 });
     console.log('done');
 };
